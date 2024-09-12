@@ -11,12 +11,4 @@ class FrontController extends Controller
         return view("front.index");
     }
 
-
-    public function myOrders(){
-        return view("front.my-orders");
-    }
-    public function myOrderDetail(){
-        return view("front.my-order-detail");
-    }
-
 }
